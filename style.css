@@ -33,6 +33,15 @@ footer {
     padding-bottom: 10px;
 }
 
+kolomLinks { 
+  float: left;
+  width: 200px
+}
+
+kolomRechts {
+  float: left;
+  width: calc(100%-200px, 40px)
+}
 
 /* specifieke stijlen */
 
