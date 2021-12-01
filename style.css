@@ -1,5 +1,26 @@
 /* Basislayout */
+/*
+* Handige instellingen om probleem te voorkomen
+*/
 
+*{
+  ?* zorg dat border meetelt bij de width en height van boxen */
+  box-sizing: border-box;
+  /* zorgt dat DIV de hoogte stijgt van wat erin zit (anders is het soms 0) */
+  overflow: auto;
+  /*standaard marge 0 */
+  margin: 0px;
+}
+
+/*
+* Handige instellingen om fouten te zoeken
+*/
+*{
+  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+  /* border: 1px dotted black; */
+  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur *
+  /* background-color: rgba(0,0,0,5%); */
+}
 html, body {
     height: 100%;
     padding: 0;
@@ -7,7 +28,7 @@ html, body {
     
     color: #0e0f4b;
     font: Verdana, Arial, Sans-Serif;
-}
+
 
 
 main 
