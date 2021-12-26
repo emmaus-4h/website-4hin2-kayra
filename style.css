@@ -4,12 +4,12 @@
 */
 
 *{
-  ?* zorg dat border meetelt bij de width en height van boxen */
+  /* zorg dat border meetelt bij de width en height van boxen */
   box-sizing: border-box;
   /* zorgt dat DIV de hoogte stijgt van wat erin zit (anders is het soms 0) */
-  overflow: auto;
+  /*overflow: auto; */
   /*standaard marge 0 */
-  margin: 0px;
+  /*margin: 0px;*/
 }
 
 /*
@@ -17,23 +17,21 @@
 */
 *{
   /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
-  border: 1px dotted black; 
+  border: 1px dotted rgb(25, 8, 255); 
   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur *
   /* background-color: rgba(0,0,0,5%); */
 }
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgba(18, 243, 232, 0.13);  
+    background-color: rgb(25, 8, 255);  
     
-    color: #0e0f4b;
+    color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
-
-
 
 main 
     margin: 0 auto;
-    width: 2000px;
+    width: 100%;
     position: relative;
 }
 
@@ -44,7 +42,7 @@ article {
 
 
 header {
-    color: rgba(15, 16, 88, 0.952);
+    color: rgba(255, 255, 255, 0.952);
     text-align: center;
 }
 
@@ -56,15 +54,42 @@ footer {
 
 .kolomLinks { 
   float: left;
-  width: 200px
+  width: 100px
 }
 
 .kolomRechts {
   float: left;
-  width: calc(100% - 200px - 40px)
+  width: calc( 100% - 100px - 40px );
 }
 
-/* specifieke stijlen */
+.rij {
+ margin-bottom: 50px;
+}
+
+.links {
+  width: 110px;
+  float:left;
+}
+
+.rechts {
+  width: calc( 100% - 400px );
+  float:right;
+}
+
+.bij {
+  margin-bottom: 70px;
+}
+
+.link {
+  width: 150px;
+  float:left;
+}
+
+.recht {
+  width: calc( 100% - 400px );
+  float:right;
+}
+
 
 img.zweefLinks {
     float: left;
@@ -76,7 +101,7 @@ img.zweefLinks {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(243, 239, 9);
     text-decoration: none;
 }
 
@@ -90,7 +115,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #5cf3d2;
+    background-color: #1014fa;
     overflow: hidden;
 }
 
@@ -107,13 +132,18 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #140a50;
+    background-color: #ff080875;
 }
 
 nav li a.active {
-    background-color: rgb(17, 10, 73);
+    background-color: rgb(105, 0, 0);
 }
 
 
+.Bekerfoto {
+  width: 100%;
+}
 
-
+.gesfoto {
+  width: 100%;
+}
