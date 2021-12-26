@@ -42,7 +42,7 @@ Stap 6: Perfectioneren
 - [x] Je hebt gecontroleerd of de lay-out werkt op een groter venster, een kleiner venster, een ander apparaat en andere browser. 
 
 Stap 7: Eye catchers 
-- [ ] Je hebt een aantal extra dingen toegevoegd die je website nog mooier maken. Denk bijvoorbeeld aan animaties met CSS, een responsive design (=website heeft een andere indeling op apparaten met een kleiner scherm), een fotogalerij, visuele effecten als je met je muis ergens overheen beweegt, vernieuwingen in het ontwerp van een gebruikte voorbeeldwebsite etc.
+- [x] Je hebt een aantal extra dingen toegevoegd die je website nog mooier maken. Denk bijvoorbeeld aan animaties met CSS, een responsive design (=website heeft een andere indeling op apparaten met een kleiner scherm), een fotogalerij, visuele effecten als je met je muis ergens overheen beweegt, vernieuwingen in het ontwerp van een gebruikte voorbeeldwebsite etc.
 
 
 ### Uitbreidingen
